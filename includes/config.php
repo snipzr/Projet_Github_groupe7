@@ -1,8 +1,8 @@
 <?php
 // Paramètres de connexion à la base de données
-define('DB_SERVER', 'localhost');    // Serveur de la base de données
-define('DB_USERNAME', '');   // Nom d'utilisateur de la base de données
-define('DB_PASSWORD', '');   // Mot de passe de la base de données
+define('DB_SERVER', 'localhost:3306');    // Serveur de la base de données
+define('DB_USERNAME', 'root');   // Nom d'utilisateur de la base de données
+define('DB_PASSWORD', 'root');   // Mot de passe de la base de données
 define('DB_NAME', 'party_planner_db'); // Nom de la base de données
 
 /* Tentative de connexion à la base de données MySQL */
