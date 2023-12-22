@@ -8,6 +8,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     header("location: profil.php");
     exit;
 }
+fête 
 
 $email = $password = "";
 $email_err = $password_err = "";

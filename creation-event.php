@@ -167,7 +167,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 
             <div class="container_submit_button">
-                <button class="custom_button" type="submit">Créer l'évènement</button>
+                <button class="custom_button" type="submit">Créer la fête</button>
             </div>
         </form>
     </div>
