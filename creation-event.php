@@ -138,7 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div>
                 <label>Description</label>
-                <textarea name="description" rows="5" collumn="3"><?php echo $description; ?></textarea>
+                <textarea name="description" rows="5" column="3"><?php echo $description; ?></textarea> <!-- erreur modifié ( collum )-->
                 <span><?php echo $description_err; ?></span>
             </div>
             <div>
@@ -153,11 +153,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div>
                 <label>Événement Public</label>
-                <input type="checkbox" name="is_public" <?php echo $is_public ? 'checked' : ''; ?>>
+                <input type="checkbox" name="public" <?php echo $is_public ? 'checked' : ''; ?>> <!-- error :is_public dans name="" -->
             </div>
             <div>
                 <label>Image de l'Événement</label>
-                <label for="fileInput" class="custom-file-input">Selectionne une photo</label>
+                <label for="fileInput" class="custom_file_input">Selectionne une photo</label> <!-- /!\ "--" != "_ _" -->
                 <input type="file" id="fileInput" name="profile_image" accept="image/*" style="display: none;">
                 <span><?php echo $image_err; ?></span>
             </div>
