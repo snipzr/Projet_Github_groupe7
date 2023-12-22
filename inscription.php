@@ -8,7 +8,6 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     header("location: profil.php");
     exit;
 }
-
 // Initialiser les variables avec des valeurs vides
 $first_name = $last_name = $pseudo = $email = $password = "";
 $first_name_err = $last_name_err = $pseudo_err = $email_err = $password_err = "";

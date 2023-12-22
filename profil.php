@@ -3,6 +3,7 @@
 session_start();
 // Inclure le fichier de configuration (contenant par exemple des paramètres de connexion à la base de données)
 require_once "includes/config.php";
+fête
 
 // Vérifier si l'utilisateur est déjà connecté, sinon le rediriger vers la page de connexion
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
