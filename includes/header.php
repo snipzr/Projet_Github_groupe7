@@ -8,7 +8,7 @@
             <a href="creation-event.php">Créer un fête</a>
             <a href="logout.php">Déconnexion</a>
         <?php else : ?>
-            <!-- Liens pour les visiteurs non connectés -->
+            <!-- Liens pour les visiteurs non connectés aaaaa -->
             <a href="index.php">Accueil</a>
             <a href="inscription.php">Inscription</a>
         <?php endif; ?>
